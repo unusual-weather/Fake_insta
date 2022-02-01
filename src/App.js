@@ -1,5 +1,4 @@
 import {
-  HashRouter as
   BrowserRouter,
   Routes,
   Route
