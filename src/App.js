@@ -12,14 +12,17 @@ import RegisterPage from "./components/views/RegisterPage/RegisterPage"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <div>
+        안녕
+      </div>
       <Routes>
-        <Route exact path="/" element = {<LandingPage/>}/>
         <Route exact path="/login" element = {<LoginPage/>}/>
         <Route exact path="/passwd" element = {<PasswdPage/>}/>
         <Route exact path="/register" element = {<RegisterPage/>}/>
       </Routes>
     </BrowserRouter>
+    
   );
 }
 
