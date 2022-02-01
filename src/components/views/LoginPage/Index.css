@@ -1,0 +1,306 @@
+*{
+    position: relative;
+}
+.html,body{
+    width: 100%;
+    height: 100%;
+    background-color:#FAFAFA;
+}
+article{
+    width: 935px;
+    height: 618px;
+    background-color: #FAFAFA; 
+    display: flex;
+    margin-top: 32px;
+    justify-content: center; 
+}
+
+.ImageFrame{
+    width: 454px;
+    height: 618px;
+    background-color: #FAFAFA;
+    margin: 0px -15px 0px -35px; 
+    position: relative;
+}
+
+.ImageFrame .phone{
+    width:275px;
+    height:575px;
+    position:absolute;
+    border-radius:50px;
+}
+
+.ImageFrame .ShowImage{
+    position:absolute;
+    width:240px;
+    height:427px;
+}
+
+.ImageFrame .ShowImage .one{
+    position:absolute;
+    height:432px;
+    width:240px;
+    animation:fadein 5s reverse;
+    animation-timing-function:cubic-bezier(.35,-0.03,0,1.32);
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+.ImageFrame .ShowImage .two{
+    position:absolute;
+    height:432px;
+    width:240px;
+    animation:fadein 5s;
+    animation-timing-function:cubic-bezier(.35,-0.03,0,1.32);
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.LoginInput{
+    width: 350px;
+    height: 606px;
+    background-color: #FAFAFA;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.LoginInfo{
+    width: 348px;
+    height: 360px;
+    border: 1px solid #dbdbdb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    background-color:white;
+}
+
+.LoginInfo .LoginForm{
+    width: 348px;
+    height: 265px;
+    margin-bottom: 10px;
+}
+
+.LoginForm form{
+    width: 348px; 
+    height: 265px; 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center;
+    position:relative;
+}
+
+
+.LoginUI{
+    width: 348px;
+    height: 213px;
+    margin-top: 24px;
+}
+
+
+/* InputText */
+.LoginInfo .Content{
+    width: 266px;
+    height: 36px;
+    margin: 0px auto 0px auto; 
+    display: flex; 
+    border-radius: 4px;
+    background-color: #fafafa;
+    border:1px solid #dbdbdb;
+    
+}
+
+.LoginInfo .Label{
+    width: 258px;
+    height: 36px; 
+    position: relative;
+}
+
+.LoginInfo .Text{
+    position: absolute;
+    left: 8px;
+    width: 250px; 
+    height: 36px; 
+    display: none; 
+}
+
+.LoginInfo .Input{
+    color: rgb(142,142,142);
+    background-color: transparent;
+    outline: none;
+    width: 250px;
+    height: 20px;
+    padding: 9px 0px 7px 8px;
+    border: 0px;
+}
+
+/* Login Btn */
+
+.LoginInfo .LoginBtn{
+    width: 268;
+    height: 30px;
+    margin: 8px 40px 8px 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.LoginInfo .LoginBtn button{ 
+    width: 268px;
+    height: 30px;
+    background-color: rgba(0,149,246,0.3);
+    padding: 5px 9px 5px 9px;
+    border: 0px solid white;
+    display: flex;
+    position: relative;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.LoginInfo .LoginBtn button div{
+    width: 248px;
+    height: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* Textor */
+
+.or{
+    width: 268px;
+    height: 15px;
+    margin: 10px auto 18px auto;
+}
+
+.or div{ 
+    width: 268px; 
+    height: 15px; 
+    display: flex;
+    justify-content: center; 
+    position: relative;
+
+}
+.or div .fb{ 
+    width: 103px;
+    height: 1px;
+    background-color: #dbdbdb;
+    position: relative;
+    top: 50%;
+}
+
+.or div .center{    
+    color: #8e8e8e;
+    width: 26px;
+    height: 15px; 
+    font-size: 13px; 
+    margin: 0px 18px 0px 18px; 
+    position: relative;
+    line-height: 15px;
+    font-weight: bolder;
+ }
+
+ /* FacebookLogin */
+
+.LoginInfo .FacebookLogin{ 
+    width: 268px;
+    height: 20px;
+    margin: 8px auto 8px auto;
+    display: inline-block;
+    position: relative;
+    text-align: center; 
+}
+
+.LoginInfo .FacebookLogin button{ 
+    width: 268px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    border: 0px solid black;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+}
+
+.LoginInfo .FacebookLogin button img{ 
+    object-fit: cover;
+    width: 16px;
+    height: 16px;
+}
+
+.LoginInfo .FacebookLogin button span{ 
+    width: 134.25px; 
+    height: 19px;
+}
+
+.RegisterInfo{
+    width: 348px;
+    height: 41px;
+    border: 1px solid #dbdbdb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    justify-content:center;
+    background-color:white
+}
+
+.RegisterInfo .RegisterText{
+    width:211.953px;
+    height:48px;
+    margin:-3px 0px -4px;
+    text-align:center;
+}
+
+.RegisterInfo .RegisterText p{
+    text-align:center;
+    margin:15px 15px 15px 15px;
+    font-size:14px;
+}
+
+.Download{
+    width: 350px;
+    height: 102px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    flex-direction:column;
+}
+
+.Download p{
+    width: 310px;
+    height: 18px;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+}
+
+.Download div{
+    width:350px;
+    height:44px;
+    margin:10px 0px 10px;
+    display:flex;
+    justify-content:center
+}
+
+.Donload div a{
+    width:136px;
+    height:40px;
+}
+
+.Download img{
+    width:134.28px;
+    height:40px;
+}
