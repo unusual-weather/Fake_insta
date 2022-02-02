@@ -5,9 +5,9 @@ import App from './App';
 import LoginPage from "./components/views/LoginPage/Index";
 
 ReactDOM.render(
-  <BrowserRouter>
+  
     <App />
-  </BrowserRouter>,
+ ,
   document.getElementById('root')
 );
 
