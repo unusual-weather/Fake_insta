@@ -12,11 +12,10 @@ import RegisterPage from "./components/views/RegisterPage/RegisterPage"
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <div>
-        안녕
-      </div>
+    <BrowserRouter>
+      메롱
       <Routes>
+        <Route exact path="/" element = {<LandingPage/>}/>
         <Route exact path="/login" element = {<LoginPage/>}/>
         <Route exact path="/passwd" element = {<PasswdPage/>}/>
         <Route exact path="/register" element = {<RegisterPage/>}/>
