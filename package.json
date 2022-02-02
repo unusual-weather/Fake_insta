@@ -44,6 +44,6 @@
     "@babel/core": "^7.16.12",
     "gh-pages": "^3.2.3"
   },
-  "homepage":"https://github.com/unusual-weather/fake_insta/"
+  "homepage":"https://unusual-weather.github.io/fake_insta/"
   
 }
