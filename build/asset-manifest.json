@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./login/static/css/main.bf6f00ca.css",
-    "main.js": "./login/static/js/main.54ee18ac.js",
-    "static/media/img.png": "./login/static/media/img.a496be397f4473a0f678.png",
-    "static/media/one.jpg": "./login/static/media/one.678f281f700f3c696a21.jpg",
-    "static/media/three.jpg": "./login/static/media/three.25af168d809c7d38455e.jpg",
-    "static/media/two.jpg": "./login/static/media/two.21a5f71716c1974924a9.jpg",
-    "static/media/iphone.jpg": "./login/static/media/iphone.7b247df6e48d5264b905.jpg",
-    "static/media/GoogleDownload.png": "./login/static/media/GoogleDownload.c0a603f08fc7b9f3f587.png",
-    "index.html": "./login/index.html",
-    "main.bf6f00ca.css.map": "./login/static/css/main.bf6f00ca.css.map",
-    "main.54ee18ac.js.map": "./login/static/js/main.54ee18ac.js.map"
+    "main.css": "/unusual-weather/fake_insta/static/css/main.bf6f00ca.css",
+    "main.js": "/unusual-weather/fake_insta/static/js/main.24d31037.js",
+    "static/media/img.png": "/unusual-weather/fake_insta/static/media/img.a496be397f4473a0f678.png",
+    "static/media/one.jpg": "/unusual-weather/fake_insta/static/media/one.678f281f700f3c696a21.jpg",
+    "static/media/three.jpg": "/unusual-weather/fake_insta/static/media/three.25af168d809c7d38455e.jpg",
+    "static/media/two.jpg": "/unusual-weather/fake_insta/static/media/two.21a5f71716c1974924a9.jpg",
+    "static/media/iphone.jpg": "/unusual-weather/fake_insta/static/media/iphone.7b247df6e48d5264b905.jpg",
+    "static/media/GoogleDownload.png": "/unusual-weather/fake_insta/static/media/GoogleDownload.c0a603f08fc7b9f3f587.png",
+    "index.html": "/unusual-weather/fake_insta/index.html",
+    "main.bf6f00ca.css.map": "/unusual-weather/fake_insta/static/css/main.bf6f00ca.css.map",
+    "main.24d31037.js.map": "/unusual-weather/fake_insta/static/js/main.24d31037.js.map"
   },
   "entrypoints": [
     "static/css/main.bf6f00ca.css",
-    "static/js/main.54ee18ac.js"
+    "static/js/main.24d31037.js"
   ]
 }
